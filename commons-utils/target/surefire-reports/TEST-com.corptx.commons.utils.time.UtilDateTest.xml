@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.391" errors="0" skipped="40" tests="40" name="com.corptx.commons.utils.time.UtilDateTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_75\jre\bin"/>
+    <property name="java.vm.version" value="24.75-b04"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CO"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Jonathan\Grupo_TX\Repositorio\proyecto_commons\2_Fuentes\trunk\commons-utils"/>
+    <property name="java.runtime.version" value="1.7.0_75-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_75\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\HUGO\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.0.2\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.0.2\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_75\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\TortoiseSVN\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.2"/>
+    <property name="user.home" value="C:\Users\HUGO"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="HUGO"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans 8.0.2\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_75\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.0.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_75"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_75\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_75\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_75\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans 8.0.2\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0" classname="com.corptx.commons.utils.time.UtilDateTest" name="testDiferenciaFechasDiasCalendario_Calendar_Calendar">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.corptx.commons.utils.time.UtilDateTest" name="testCompareToDateWhioutHours_3args_2">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.corptx.commons.utils.time.UtilDateTest" name="testCalculaInteresMora_5args_2">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.corptx.commons.utils.time.UtilDateTest" name="testConverterDiasToMiliseconds">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.corptx.commons.utils.time.UtilDateTest" name="testProximaVigenciaByTipoPeriodicidad">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.corptx.commons.utils.time.UtilDateTest" name="testDiferenciaFechasDiasCalendario_Date_Date">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.corptx.commons.utils.time.UtilDateTest" name="testPorcentajeInteresMoraByTrimestre">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.corptx.commons.utils.time.UtilDateTest" name="testPorcentajeInteresMoraByDiasPeriodo">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.corptx.commons.utils.time.UtilDateTest" name="testConverterHoraToMiliseconds">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.corptx.commons.utils.time.UtilDateTest" name="testSetActualHourMinuteSecondToDate">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.corptx.commons.utils.time.UtilDateTest" name="testCalculaInteresMora_5args_3">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.corptx.commons.utils.time.UtilDateTest" name="testCompareToDateWhioutHours_3args_1">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.corptx.commons.utils.time.UtilDateTest" name="testCalculaInteresMora_5args_1">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.corptx.commons.utils.time.UtilDateTest" name="testAnteriorVigenciaByTipoPeriodicidad">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.corptx.commons.utils.time.UtilDateTest" name="testCalcularCantidadDiasPorPeriodoInteresMora">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.corptx.commons.utils.time.UtilDateTest" name="testGetCalendarWithoutHours_Calendar">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.corptx.commons.utils.time.UtilDateTest" name="testGetCalendarWithoutHours_Date">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="com.corptx.commons.utils.time.UtilDateTest" name="testMain">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testGetHoras">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testCompareToDate_3args_1">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testGetMinutos">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testGetDateDiff">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testGetMilisegundos">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testUltimoDiaVigenciaActual">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testGetPromedioInteresMora">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testSumarDiasCalendario">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testGetVigenciaPeriodoByDate">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testCompareToDate_3args_2">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testGetSegundos">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testCicloPorPeriodicidad">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testSumarDiasHabiles_4args_2">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testSumarDiasHabiles_4args_1">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testUltimoDiaHabilDelMes">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testCompareToYears">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testDiferenciaFechasEnDias">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testGetCurrentYearAsString">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testGetDateWithoutHours">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testStringToCalendar">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testUltimoDiaCalendarioMes">
+    <skipped/>
+  </testcase>
+  <testcase time="0.016" classname="com.corptx.commons.utils.time.UtilDateTest" name="testTrimestreOfYear">
+    <skipped/>
+  </testcase>
+</testsuite>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.corptx.commons.utils.time.UtilDateTest
+-------------------------------------------------------------------------------
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 40, Time elapsed: 0.391 sec
